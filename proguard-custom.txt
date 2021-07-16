@@ -1,0 +1,10 @@
+-dontshrink
+-dontoptimize
+# -dontobfuscate
+
+-verbose
+-keep class org.apache.cordova.** { *; }
+-keep public class * extends org.apache.cordova.CordovaPlugin
+
+
+
